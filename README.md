@@ -9,6 +9,6 @@ INTEGRANTES DO GRUPO:
 
 ## Objetivos
 
-- Demonstrar a integração prática dos pilares de **Tarifação, Pagamento e Interoperabilidade** do ChargeGrid Intelligence mapeados nas Sprints 1 e 2[cite: 1, 2].
-- Implementar um fluxo *End-to-End*: confirmação de transação no aplicativo móvel $\rightarrow$ atualização do estado no banco de dados Cloud (Supabase) $\rightarrow$ resposta automática e liberação no hardware embarcado (ESP32).
+- Demonstrar a integração prática dos pilares de Tarifação, Pagamento e Interoperabilidade do ChargeGrid Intelligence mapeados nas Sprints 1 e 2.
+- Implementar um fluxo End-to-End: confirmação de transação no aplicativo móvel, atualização do estado no banco de dados Cloud (Supabase), com resposta automática e liberação no hardware embarcado (ESP32).
 - Prover interface visual de feedback ao usuário final através de um Display de mensagens ("Pagamento Aprovado / Recarga Liberada").
