@@ -17,7 +17,7 @@ INTEGRANTES DO GRUPO:
 
 ### Diagrama de Fluxo dos Componentes
 
-[ App Movel ] -> [ Supabase Cloud ] -> [ ESP32 ] -> [ Display LCD ] & [ Módulo Relé ]
+[ App Movel ] -> [ Supabase Cloud ] -> [ ESP32 ] -> [ Display LCD ] -> [ Módulo Relé ]
 
 ### Descrição dos Módulos
 
