@@ -1,1 +1,1 @@
-# Chargegrid-Intelligence-Sprint3
+# ChargeGrid Intelligence – Gestão de Recarga EV (Sprint 3)
