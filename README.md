@@ -31,7 +31,7 @@ INTEGRANTES DO GRUPO:
 
 - ESP32: Escolhido por possuir Wi-Fi nativo, alto desempenho de processamento e baixo custo para escutar eventos em nuvem.
 - Supabase Cloud: Utilizado como banco de dados em nuvem pela facilidade de envio de eventos em tempo real para o hardware assim que a transação ocorre.
-- Display LCD (I2C): Utilizado por permitir comunicação com poucos fios (SDA/SCL) e fornecer feedback claro e imediato para o usuário na estação.
+- Display LCD: Utilizado por fornecer feedback claro e imediato para o usuário na estação.
 - Atuador / Botão de Liberação (Simulação do Relé): Componente responsável por simular o acionamento e a liberação física da corrente na estação de recarga após a validação do pagamento.
 
 ### Resultados e Dados Funcionais
@@ -40,3 +40,9 @@ Durante os testes do protótipo, foi possível validar:
 - Tempo de resposta rápido entre a confirmação do pagamento no aplicativo e a atualização do estado no ESP32.
 - Transição automática no Display LCD de "Aguardando Pagamento" para "Pagamento Aprovado".
 - Comutação do Módulo Relé liberando a alimentação da estação assim que a transação é confirmada no banco de dados.
+
+### Conexão com os Conteúdos da Disciplina
+
+- Automação e IoT: Aplicação prática de microcontroladores integrados a atuadores, displays e redes sem fio.
+- Sistemas Embarcados: Desenvolvimento de lógica em C/C++ para escutar bancos de dados em tempo real e tratar periféricos.
+- Cloud e Monetização: Integração de banco de dados distribuído para viabilizar a tarifação e controle de acesso a estações de recarga comerciais.
