@@ -46,3 +46,10 @@ Durante os testes do protótipo, foi possível validar:
 - Automação e IoT: Aplicação prática de microcontroladores integrados a atuadores, displays e redes sem fio.
 - Sistemas Embarcados: Desenvolvimento de lógica em C/C++ para escutar bancos de dados em tempo real e tratar periféricos.
 - Cloud e Monetização: Integração de banco de dados distribuído para viabilizar a tarifação e controle de acesso a estações de recarga comerciais.
+
+### Instruções para Execução do Código
+
+1. Abrir o código-fonte localizado na pasta src na IDE Arduino ou PlatformIO.
+2. Configurar as credenciais da rede Wi-Fi e as chaves de acesso do Supabase no código.
+3. Fazer o upload do firmware para a placa ESP32.
+4. Executar uma transação de teste no aplicativo e acompanhar o acionamento no hardware.
