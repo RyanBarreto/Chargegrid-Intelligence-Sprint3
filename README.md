@@ -26,3 +26,10 @@ INTEGRANTES DO GRUPO:
 3. ESP32: Microcontrolador conectado ao Wi-Fi que escuta as atualizações do Supabase.
 4. Display LCD: Exibe o status da transação para o usuário ("Pagamento Aprovado").
 5. Módulo Relé: Atuador elétrico que liga a energia da estação de recarga após a aprovação.
+
+### Justificativa Técnica das Escolhas
+
+* ESP32: Escolhido por possuir Wi-Fi nativo, alto desempenho de processamento e baixo custo para escutar eventos em nuvem.
+* Supabase Cloud: Utilizado como banco de dados em nuvem pela facilidade de envio de eventos em tempo real para o hardware assim que a transação ocorre.
+* Display LCD (I2C): Utilizado por permitir comunicação com poucos fios (SDA/SCL) e fornecer feedback claro e imediato para o usuário na estação.
+* Atuador / Botão de Liberação (Simulação do Relé): Componente responsável por simular o acionamento e a liberação física da corrente na estação de recarga após a validação do pagamento.
