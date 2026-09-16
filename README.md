@@ -21,11 +21,11 @@ INTEGRANTES DO GRUPO:
 
 ### Descrição dos Módulos
 
-1. Aplicativo Móvel: Interface onde o usuário realiza o pagamento e solicita a recarga.
-2. Supabase Cloud: Banco de dados em nuvem que recebe a confirmação do pagamento e envia o evento em tempo real.
-3. ESP32: Microcontrolador conectado ao Wi-Fi que escuta as atualizações do Supabase.
-4. Display LCD: Exibe o status da transação para o usuário ("Pagamento Aprovado").
-5. Módulo Relé: Atuador elétrico que liga a energia da estação de recarga após a aprovação.
+- Aplicativo Móvel: Interface onde o usuário realiza o pagamento e solicita a recarga.
+- Supabase Cloud: Banco de dados em nuvem que recebe a confirmação do pagamento e envia o evento em tempo real.
+- ESP32: Microcontrolador conectado ao Wi-Fi que escuta as atualizações do Supabase.
+- Display LCD: Exibe o status da transação para o usuário ("Pagamento Aprovado").
+- Módulo Relé: Atuador elétrico que liga a energia da estação de recarga após a aprovação.
 
 ### Justificativa Técnica das Escolhas
 
