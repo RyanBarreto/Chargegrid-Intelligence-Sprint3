@@ -17,8 +17,8 @@ const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 
 // Configurações da API do Supabase
-const char* supabaseUrl = "https://dyerfgakougflmiarogl.supabase.co/rest/v1/estacoes?id=eq.ESP32_01&select=*";
-const char* supabaseApiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR5ZXJmZ2Frb3VnZmxtaWFyb2dsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc2Mzk2MTQsImV4cCI6MjEwMzIxNTYxNH0.4N5pABfNlfN3xx6ipiHvLLVgpeUEjza6WdxWpaFkbuw";
+const char* supabaseUrl = "****";
+const char* supabaseApiKey = "****";
 
 // Estado do Sistema
 bool pagamentoConfirmado = false;
