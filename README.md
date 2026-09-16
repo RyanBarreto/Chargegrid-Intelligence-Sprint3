@@ -29,7 +29,7 @@ INTEGRANTES DO GRUPO:
 
 ### Justificativa Técnica das Escolhas
 
-* ESP32: Escolhido por possuir Wi-Fi nativo, alto desempenho de processamento e baixo custo para escutar eventos em nuvem.
-* Supabase Cloud: Utilizado como banco de dados em nuvem pela facilidade de envio de eventos em tempo real para o hardware assim que a transação ocorre.
-* Display LCD (I2C): Utilizado por permitir comunicação com poucos fios (SDA/SCL) e fornecer feedback claro e imediato para o usuário na estação.
-* Atuador / Botão de Liberação (Simulação do Relé): Componente responsável por simular o acionamento e a liberação física da corrente na estação de recarga após a validação do pagamento.
+- ESP32: Escolhido por possuir Wi-Fi nativo, alto desempenho de processamento e baixo custo para escutar eventos em nuvem.
+- Supabase Cloud: Utilizado como banco de dados em nuvem pela facilidade de envio de eventos em tempo real para o hardware assim que a transação ocorre.
+- Display LCD (I2C): Utilizado por permitir comunicação com poucos fios (SDA/SCL) e fornecer feedback claro e imediato para o usuário na estação.
+- Atuador / Botão de Liberação (Simulação do Relé): Componente responsável por simular o acionamento e a liberação física da corrente na estação de recarga após a validação do pagamento.
