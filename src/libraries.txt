@@ -1,11 +1,11 @@
 # Lista de Bibliotecas Utilizadas no Projeto
 
 1. LiquidCrystal I2C
-   - Documentacao/Download: https://github.com/johnrickman/LiquidCrystal_I2C
+   - Documentação: https://www.arduinolibraries.info/libraries/liquid-crystal-i2-c
 
 2. ArduinoJson
-   - Documentacao/Download: https://arduinojson.org/
+   - Documentação: https://www.arduinolibraries.info/libraries/arduino-json
 
 3. LiquidCrystal
-   - Documentacao/Download: https://www.arduino.cc/en/Reference/LiquidCrystal
+   - Documentação: https://www.arduinolibraries.info/libraries/liquid-crystal
 
