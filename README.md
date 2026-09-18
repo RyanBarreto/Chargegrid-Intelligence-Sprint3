@@ -54,7 +54,7 @@ Durante os testes do protótipo, foi possível validar:
 3. Fazer o upload do firmware para a placa ESP32.
 4. Executar uma transação de teste no aplicativo e acompanhar o acionamento no hardware.
 
-Simulação On-line (Wokwi)
+### Simulação On-line (Wokwi)
 
 O circuito completo e funcional pode ser testado diretamente no navegador através do link abaixo:
 * Link do Projeto no Wokwi: https://wokwi.com/projects/473096925120445441
